@@ -1,0 +1,108 @@
+body{
+
+	height: 700px;
+	background-image:   linear-gradient(#000000,#050a14);
+}
+body #circle{
+	height: 400px;
+	width: 400px;
+
+	margin: 0 auto 0 auto;
+	border:8px solid #00ff00;
+	border-radius: 50%;
+
+	transition: 1.2s;
+}
+
+body #circle:hover{
+	box-shadow: 0 5px 50px 0 #00ff00 inset, 0 5px 0 #00ff00 ;
+}
+
+#naveBar{
+	width: auto;
+	height: 100px;
+	padding: 2px;
+
+	
+
+}
+
+#naveBar #login {
+		
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	margin:25px 10px;
+	font-size: 15px;
+	padding: 15px;
+	border: 2px solid red;
+	
+	border-radius: 25px;
+
+	text-decoration: none;
+}
+
+#naveBar .lnkmn:hover{
+	transition: 1.2s;
+	border: 2px solid #00ccff;
+	box-shadow: 0px 0px 20px lightblue;
+}
+
+
+#naveBar #menuBar li {
+
+	margin:25px 17px;
+	float: right;
+	list-style-type: none;
+
+}
+#naveBar #menuBar .lnkmn{
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	font-size: 15px;
+	padding: 15px;
+	border: 2px solid red;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+
+
+#menu{
+	
+	margin:150px auto 0 auto ;
+	display: flex;
+
+	
+}
+#menu a {
+	text-decoration: none;
+}
+
+
+
+.modal{
+	width: 60%;
+	height: 50%;
+	background-color: #fff;
+	border: 3px solid #000;
+	border-radius: 5px;
+	margin: 80px auto 0 300px;
+
+}
+
+
+.modal span{
+	float: right;
+	font-size: 50px;
+	color: #000;
+	margin: 8px 15px;
+	transition: 350ms;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.modal span:hover{
+	color: #990000;
+	transition: 350ms;
+}
